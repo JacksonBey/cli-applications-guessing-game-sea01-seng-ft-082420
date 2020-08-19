@@ -2,7 +2,6 @@
 require 'pry'
 def run_guessing_game
 num=rand(6)+1
-puts "guess a number 1-6"
 unum=gets.chomp
 if num===unum
   binding.pry

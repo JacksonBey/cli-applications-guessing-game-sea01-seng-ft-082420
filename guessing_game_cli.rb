@@ -5,11 +5,11 @@ num=rand(6)+1
 unum=gets.chomp
 if num===unum
   binding.pry
-  return "You guessed the correct number!"
+  puts "You guessed the correct number!"
 else if unum==="exit"
-  return "Goodbye!"
+  puts "Goodbye!"
 else 
-  return "Sorry! The computer guessed #{num}."
+  puts "Sorry! The computer guessed #{num}."
 end
 end
 end

@@ -8,6 +8,9 @@ if num===unum
 else if unum==="exit"
   puts "Goodbye!"
 else 
+  if num===2
+  binding.pry
+  end
   puts "Sorry! The computer guessed #{num}."
 end
 end

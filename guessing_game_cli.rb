@@ -11,3 +11,4 @@ else
   return "Sorry! The computer guessed #{num}."
 end
 end
+end

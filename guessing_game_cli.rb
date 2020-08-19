@@ -8,6 +8,6 @@ if num===unum
 else if unum==="exit"
   return "Goodbye!"
 else 
-  return 
+  return "Sorry! The computer guessed #{num}."
 end
 end

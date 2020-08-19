@@ -4,8 +4,8 @@ def run_guessing_game
 num=rand(6)+1
 puts "guess a number 1-6"
 unum=gets.chomp
-binding.pry
 if num===unum
+  binding.pry
   return "You guessed the correct number!"
 else if unum==="exit"
   return "Goodbye!"

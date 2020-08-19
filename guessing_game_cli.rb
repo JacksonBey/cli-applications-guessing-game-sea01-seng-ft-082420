@@ -4,6 +4,10 @@ def run_guessing_game
 num=rand(6)+1
 unum=gets.chomp
 if num===unum
-  return ""
+  return "You guessed the correct number!"
+else if unum==="exit"
+  return "Goodbye!"
+else 
+  return 
 end
 end
